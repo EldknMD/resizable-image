@@ -1,0 +1,44 @@
+#container {
+    width: 99%;
+    height: 99%;
+    cursor: default;
+    background-size:cover; 
+}
+.bigcont{
+    padding: 5px;
+    width: 302px;
+    height: 302px;
+    position: relative;
+    left:400px;
+    top: 100px;
+    border: 1px dashed red;
+    text-align: center;
+    z-index:50;
+}
+.sm{
+    width:6px;
+    height: 6px;
+    position: absolute;
+    border: 1px solid red;
+    display: inline-block;
+}
+.top-right{
+    top: -0;
+    right: -0;
+}
+.top-left{
+    top: -0;
+    left: 0;
+}
+.bottom-right{
+    bottom: 0;
+    right: 0;
+}
+.bottom-left{
+    bottom: 0;
+    left: 0;
+}
+
+.sm:hover{
+    cursor: pointer;
+}
